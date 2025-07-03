@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WebRTC'
-  s.version          = '0.0.3'
+  s.version          = '118.0.0'
   s.summary          = 'WebRTC framework for iOS'
   s.description      = 'Google WebRTC framework compiled for iOS with arm64 and x86_64 simulator support'
   s.homepage         = 'https://github.com/cloudmix/webrtc-ios-releases'
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   LICENSE
   }
   s.authors          = 'The WebRTC project authors'
-  s.source           = { :http => 'https://github.com/cloudmix/webrtc-ios-releases/releases/download/0.0.3/WebRTC.xcframework.zip', :flatten => false }
+  s.source           = { :http => 'https://github.com/cloudmix/webrtc-ios-releases/releases/download/118.0.0/WebRTC.xcframework.zip', :flatten => false }
   s.platforms        = { :ios => '12.0' }
   s.vendored_frameworks = 'WebRTC.xcframework'
 end
